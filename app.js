@@ -6,7 +6,6 @@ app.use(express.json());
 
 // In-memory to store student data
 let students = [];
-// let nextId = 1;
 
 //add a new student data, works perfectly on postman
 app.post('/addnewstudents', (req, res) => {
